@@ -3,7 +3,7 @@ layout: post
 title: "Markdown语法测试"
 date: 2017-09-10
 categories:
-  - Test1
+  - Test
 description:
 image: /assets/images/observers.jpg
 image-sm: /assets/images/observers.jpg
