@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>特效观测站</title>
+    <description></description>
+    <link>www.elpsycongroo.cc/</link>
+    <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Sep 2017 20:55:59 +0800</pubDate>
+    <lastBuildDate>Sun, 10 Sep 2017 20:55:59 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Markdown语法测试</title>
+        <description>&lt;h1&gt;标题&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h1&gt;This is an H1&lt;/h1&gt;
+&lt;h2&gt;This is an H2&lt;/h2&gt;
+&lt;h3&gt;This is an H3&lt;/h3&gt;
+&lt;h4&gt;This is an H4&lt;/h4&gt;
+&lt;h5&gt;This is an H5&lt;/h5&gt;
+&lt;h6&gt;This is an H6&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;粗斜体&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;斜体文本&lt;/em&gt;    &lt;em&gt;斜体文本&lt;/em&gt;
+&lt;strong&gt;粗体文本&lt;/strong&gt;    &lt;strong&gt;粗体文本&lt;/strong&gt;
+&lt;strong&gt;&lt;em&gt;粗斜体文本&lt;/em&gt;&lt;/strong&gt;    &lt;strong&gt;&lt;em&gt;粗斜体文本&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;链接&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;文字链接 &lt;a href=&quot;http://www.baidu.com&quot;&gt;百度&lt;/a&gt;
+&lt;br /&gt;
+网址链接 &lt;a href=&quot;http://www.baidu.com&quot;&gt;http://www.baidu.com&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;列表&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;普通无序列表&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;列表文本前使用 [减号+空格]&lt;/li&gt;
+  &lt;li&gt;列表文本前使用 [加号+空格]&lt;/li&gt;
+  &lt;li&gt;列表文本前使用 [星号+空格]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;普通有序列表&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;列表前使用 [数字+空格]&lt;/li&gt;
+  &lt;li&gt;我们会自动帮你添加数字&lt;/li&gt;
+  &lt;li&gt;不用担心数字不对，显示的时候我们会自动把这行的 7 纠正为 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;图片&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;跟链接的方法区别在于前面加了个感叹号 !&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/observers.jpg&quot; alt=&quot;logo&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;也可以使用 HTML 的图片语法来自定义图片的宽高大小&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://example.com/sample.png&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://avatars0.githubusercontent.com/u/28595171?v=4&amp;amp;u=d39766f6e9646f8a8ef138fb0e228e7c09fb6cc1&amp;amp;s=400&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;换行&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;如果另起一行，只需在当前行结尾加 2 个空格&lt;/h3&gt;
+&lt;p&gt;在当前行的结尾加 2 个空格&lt;br /&gt;
+这行就会新起一行
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;分隔符&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h4&gt;如果你有写分割线的习惯，可以新起一行输入三个以上的减号-或*号。当前后都有段落时，请空出一行：&lt;/h4&gt;
+&lt;p&gt;前面的段落&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;后面的段落&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;代码高亮&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;高级技巧&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;待续...&lt;/h3&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 +0800</pubDate>
+        <link>www.elpsycongroo.cc/2017/09/10/markdown-test/</link>
+        <guid isPermaLink="true">www.elpsycongroo.cc/2017/09/10/markdown-test/</guid>
+        
+        
+        <category>Test1</category>
+        
+      </item>
+    
+      <item>
+        <title>占位文</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Sep 2017 00:00:00 +0800</pubDate>
+        <link>www.elpsycongroo.cc/2017/09/09/hello/</link>
+        <guid isPermaLink="true">www.elpsycongroo.cc/2017/09/09/hello/</guid>
+        
+        
+        <category>J</category>
+        
+      </item>
+    
+      <item>
+        <title>占位文</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Sep 2017 00:00:00 +0800</pubDate>
+        <link>www.elpsycongroo.cc/2017/09/09/post-test/</link>
+        <guid isPermaLink="true">www.elpsycongroo.cc/2017/09/09/post-test/</guid>
+        
+        
+        <category>Test2</category>
+        
+      </item>
+    
+  </channel>
+</rss>
