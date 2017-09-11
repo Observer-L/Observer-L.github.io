@@ -1,0 +1,13 @@
+---
+layout: post
+title: "占位文6"
+date: 2017-09-09
+categories:
+  - Placeholder
+  - Test
+description:
+image: /assets/images/b3e3d31f51d6c7d7721fd7d54d13c78aa0040c7d3a20d-2ZluZV_fw658.jpg
+image-sm: /assets/images/b3e3d31f51d6c7d7721fd7d54d13c78aa0040c7d3a20d-2ZluZV_fw658.jpg
+---
+6  
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
