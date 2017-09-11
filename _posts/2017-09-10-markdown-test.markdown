@@ -8,6 +8,11 @@ description:
 image: /assets/images/observers.jpg
 image-sm: /assets/images/observers.jpg
 ---
+<h1>视频</h1>
+****
+使用<b>embed</b>标签添加B站视频
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14099326&page=3" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">  
+<br>
 <h1>标题</h1>
 ****
 <h1>This is an H1</h1>
@@ -21,14 +26,14 @@ image-sm: /assets/images/observers.jpg
 ****
 *斜体文本*    _斜体文本_
 **粗体文本**    __粗体文本__
-***粗斜体文本***    ___粗斜体文本___
+***粗斜体文本***    ___粗斜体文本___  
 <br>
 
 <h1>链接</h1>
 ****
 文字链接 [百度](http://www.baidu.com)
 <br>
-网址链接 <http://www.baidu.com>
+网址链接 <http://www.baidu.com>  
 <br>
 
 <h1>列表</h1>
@@ -60,7 +65,7 @@ image-sm: /assets/images/observers.jpg
 ****
 <h3>如果另起一行，只需在当前行结尾加 2 个空格</h3>
 在当前行的结尾加 2 个空格  
-这行就会新起一行
+这行就会新起一行  
 <br>
 <h1>分隔符</h1>
 ****
