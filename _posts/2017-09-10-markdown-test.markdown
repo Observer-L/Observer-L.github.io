@@ -15,7 +15,7 @@ image-sm: /assets/images/base/observers.jpg
 <br>
 <h1>音乐</h1>
 ****
-<iframe src="http://music.163.com/outchain/player?type=0&amp;id=883384627&amp;auto=0&amp;height=430" width="50%" height="300" frameborder="yes" marginwidth="50" marginheight="50"></iframe>
+<iframe src="http://music.163.com/outchain/player?type=0&amp;id=883384627&amp;auto=0&amp;height=430" width="100%" height="430" frameborder="yes" marginwidth="0" marginheight="0"></iframe>
 <br>
 <h1>标题</h1>
 ****
