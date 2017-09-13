@@ -54,7 +54,7 @@ image-sm: /assets/images/base/observers.jpg
 ```python
 ![logo](http://example.com/sample.png)
 ```
-![logo](/assets/images/observers.jpg)
+![logo](/assets/images/base/observers.jpg)
 <h3>也可以使用 HTML 的图片语法来自定义图片的宽高大小</h3>
 ```python
 <img src="http://example.com/sample.png" width="100" height="100">
