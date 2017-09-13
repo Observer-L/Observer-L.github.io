@@ -5,8 +5,8 @@ date: 2017-09-08
 categories:
   - About-Me
 description:
-image: /assets/images/avatar.jpg
-image-sm: /assets/images/avatar.jpg
+image: /assets/images/base/avatar.jpg
+image-sm: /assets/images/base/avatar.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

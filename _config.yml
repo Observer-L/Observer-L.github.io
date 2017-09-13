@@ -15,10 +15,10 @@ default_img:
 
 # Profile settings
 name:
-profile_img:
-profile:
-social:
-  github:
+profile_img: /assets/images/base/observer.jpg
+profile: "Hi, I am Observer."
+social: 
+  github: "https://github.com/Observer-L"
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
@@ -34,5 +34,3 @@ sass:
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
-
-safe: false

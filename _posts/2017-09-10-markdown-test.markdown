@@ -5,8 +5,8 @@ date: 2017-09-10
 categories:
   - Test
 description:
-image: /assets/images/observers.jpg
-image-sm: /assets/images/observers.jpg
+image: /assets/images/base/observers.jpg
+image-sm: /assets/images/base/observers.jpg
 ---
 <h1>视频</h1>
 ****

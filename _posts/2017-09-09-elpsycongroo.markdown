@@ -5,8 +5,8 @@ date: 2017-09-08
 categories:
   - Test
 description:
-image: /assets/images/1e83bf1bb051f819262b06dad3b44aed2f73e7a1.jpg
-image-sm: /assets/images/1e83bf1bb051f819262b06dad3b44aed2f73e7a1.jpg
+image: /assets/images/base/christina.jpg
+image-sm: /assets/images/base/christina.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
