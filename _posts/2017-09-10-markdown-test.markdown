@@ -13,6 +13,10 @@ image-sm: /assets/images/base/observers.jpg
 使用<b>embed</b>标签添加B站视频
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14099326&page=3" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">  
 <br>
+<h1>音乐</h1>
+****
+<iframe src="http://music.163.com/outchain/player?type=0&amp;id=883384627&amp;auto=0&amp;height=430" width="50%" height="300" frameborder="yes" marginwidth="50" marginheight="50"></iframe>
+<br>
 <h1>标题</h1>
 ****
 <h1>This is an H1</h1>

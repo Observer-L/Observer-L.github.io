@@ -5,8 +5,8 @@
     <description></description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Sep 2017 11:33:58 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Sep 2017 11:33:58 +0800</lastBuildDate>
+    <pubDate>Wed, 13 Sep 2017 19:58:21 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Sep 2017 19:58:21 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -16,6 +16,10 @@
 &lt;p&gt;使用&lt;b&gt;embed&lt;/b&gt;标签添加B站视频&lt;/p&gt;
 &lt;embed height=&quot;415&quot; width=&quot;544&quot; quality=&quot;high&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;//static.hdslb.com/miniloader.swf&quot; flashvars=&quot;aid=14099326&amp;amp;page=3&quot; pluginspage=&quot;//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&quot; /&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;音乐&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;iframe src=&quot;http://music.163.com/outchain/player?type=0&amp;amp;id=883384627&amp;amp;auto=0&amp;amp;height=430&quot; width=&quot;50%&quot; height=&quot;300&quot; frameborder=&quot;yes&quot; marginwidth=&quot;50&quot; marginheight=&quot;50&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h1&gt;标题&lt;/h1&gt;
 &lt;hr /&gt;
@@ -62,7 +66,7 @@
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/observers.jpg&quot; alt=&quot;logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/base/observers.jpg&quot; alt=&quot;logo&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;也可以使用 HTML 的图片语法来自定义图片的宽高大小&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://example.com/sample.png&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
