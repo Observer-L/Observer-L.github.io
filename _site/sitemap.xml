@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>www.elpsycongroo.cc/2017/10/22/china-2012~2017-earthquakes-visualization/</loc>
+<lastmod>2017-10-22T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>www.elpsycongroo.cc/2017/09/10/markdown-test/</loc>
 <lastmod>2017-09-10T00:00:00+08:00</lastmod>
 </url>
@@ -98,6 +102,9 @@
 </url>
 <url>
 <loc>www.elpsycongroo.cc/category/placeholder/</loc>
+</url>
+<url>
+<loc>www.elpsycongroo.cc/category/data-visualization/</loc>
 </url>
 <url>
 <loc>www.elpsycongroo.cc/category/about-me/index.html</loc>

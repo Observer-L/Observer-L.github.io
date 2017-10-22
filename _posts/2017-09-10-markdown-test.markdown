@@ -11,11 +11,11 @@ image-sm: /assets/images/base/observers.jpg
 <h1>视频</h1>
 ****
 使用<b>embed</b>标签添加B站视频
-<embed height="650" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14099326&page=3" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" width="100%">  
+<embed height="600" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14099326&page=3" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" width="100%">  
 <br>
 <h1>音乐</h1>
 ****
-<iframe src="http://music.163.com/outchain/player?type=0&amp;id=883384627&amp;auto=0&amp;height=430" width="100%" height="430" frameborder="yes" marginwidth="0" marginheight="0"></iframe>
+<iframe src="http://music.163.com/outchain/player?type=0&amp;id=883384627&amp;auto=0&amp;height=430" width="100%" height="430" frameborder="no" marginwidth="0" marginheight="0"></iframe>
 <br>
 <h1>标题</h1>
 ****

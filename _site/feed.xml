@@ -5,21 +5,55 @@
     <description></description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Sep 2017 09:51:15 +0800</pubDate>
-    <lastBuildDate>Thu, 14 Sep 2017 09:51:15 +0800</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2017 14:25:15 +0800</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 14:25:15 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>中国地震数据可视化</title>
+        <description>&lt;p&gt;tableau图表代码嵌入测试&lt;/p&gt;
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1508652271903&quot; style=&quot;position: relative&quot;&gt;
+	&lt;noscript&gt;
+		&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;2012 年至 2017 年世界各地（中国为主）记录的地震 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;R8&amp;#47;R8Y3CPKTW&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/noscript&gt;
+	&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;
+		&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; 
+		&lt;param name=&quot;embed_code_version&quot; value=&quot;2&quot; /&gt; 
+		&lt;param name=&quot;path&quot; value=&quot;shared&amp;#47;R8Y3CPKTW&quot; /&gt; 
+		&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;R8&amp;#47;R8Y3CPKTW&amp;#47;1.png&quot; /&gt; 
+		&lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;filter&quot; value=&quot;publish=yes&quot; /&gt;
+	&lt;/object&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1508652271903&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 22 Oct 2017 00:00:00 +0800</pubDate>
+        <link>www.elpsycongroo.cc/2017/10/22/china-2012~2017-earthquakes-visualization/</link>
+        <guid isPermaLink="true">www.elpsycongroo.cc/2017/10/22/china-2012~2017-earthquakes-visualization/</guid>
+        
+        
+        <category>Data_Visualization</category>
+        
+      </item>
     
       <item>
         <title>Markdown语法测试</title>
         <description>&lt;h1&gt;视频&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;p&gt;使用&lt;b&gt;embed&lt;/b&gt;标签添加B站视频&lt;/p&gt;
-&lt;embed height=&quot;650&quot; quality=&quot;high&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;//static.hdslb.com/miniloader.swf&quot; flashvars=&quot;aid=14099326&amp;amp;page=3&quot; pluginspage=&quot;//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&quot; width=&quot;100%&quot; /&gt;
+&lt;embed height=&quot;600&quot; quality=&quot;high&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;//static.hdslb.com/miniloader.swf&quot; flashvars=&quot;aid=14099326&amp;amp;page=3&quot; pluginspage=&quot;//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&quot; width=&quot;100%&quot; /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h1&gt;音乐&lt;/h1&gt;
 &lt;hr /&gt;
-&lt;iframe src=&quot;http://music.163.com/outchain/player?type=0&amp;amp;id=883384627&amp;amp;auto=0&amp;amp;height=430&quot; width=&quot;100%&quot; height=&quot;430&quot; frameborder=&quot;yes&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;http://music.163.com/outchain/player?type=0&amp;amp;id=883384627&amp;amp;auto=0&amp;amp;height=430&quot; width=&quot;100%&quot; height=&quot;430&quot; frameborder=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h1&gt;标题&lt;/h1&gt;
 &lt;hr /&gt;
@@ -239,22 +273,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
         <pubDate>Sat, 09 Sep 2017 00:00:00 +0800</pubDate>
         <link>www.elpsycongroo.cc/2017/09/09/post-test-11/</link>
         <guid isPermaLink="true">www.elpsycongroo.cc/2017/09/09/post-test-11/</guid>
-        
-        
-        <category>Placeholder</category>
-        
-        <category>Test</category>
-        
-      </item>
-    
-      <item>
-        <title>占位文10</title>
-        <description>&lt;p&gt;10&lt;br /&gt;
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 Sep 2017 00:00:00 +0800</pubDate>
-        <link>www.elpsycongroo.cc/2017/09/09/post-test-10/</link>
-        <guid isPermaLink="true">www.elpsycongroo.cc/2017/09/09/post-test-10/</guid>
         
         
         <category>Placeholder</category>
