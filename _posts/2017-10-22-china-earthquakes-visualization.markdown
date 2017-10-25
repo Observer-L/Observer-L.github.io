@@ -8,7 +8,7 @@ description:
 image: /assets/images/tech/China__2012~2017_Earthquakes_Visualization.jpg
 image-sm: /assets/images/tech/China__2012~2017_Earthquakes_Visualization.jpg
 ---
-<h2>tableau图表代码嵌入测试</h2>
+<h2>Demo 1</h2> 
 <hr>
 <div class='tableauPlaceholder' id='viz1508927953445' style='position: relative'>
 	<noscript><a href='#'><img alt='近5年来中国以及周边地区记录的地震数据 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15423&#47;sheet0&#47;1_rss.png' style='border: none' /></a></noscript>
