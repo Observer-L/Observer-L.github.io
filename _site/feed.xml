@@ -5,33 +5,31 @@
     <description></description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Oct 2017 14:25:15 +0800</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 14:25:15 +0800</lastBuildDate>
+    <pubDate>Wed, 25 Oct 2017 19:51:52 +0800</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2017 19:51:52 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>中国地震数据可视化</title>
-        <description>&lt;p&gt;tableau图表代码嵌入测试&lt;/p&gt;
-&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1508652271903&quot; style=&quot;position: relative&quot;&gt;
-	&lt;noscript&gt;
-		&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;2012 年至 2017 年世界各地（中国为主）记录的地震 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;R8&amp;#47;R8Y3CPKTW&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/noscript&gt;
-	&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;
-		&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; 
-		&lt;param name=&quot;embed_code_version&quot; value=&quot;2&quot; /&gt; 
-		&lt;param name=&quot;path&quot; value=&quot;shared&amp;#47;R8Y3CPKTW&quot; /&gt; 
-		&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;R8&amp;#47;R8Y3CPKTW&amp;#47;1.png&quot; /&gt; 
-		&lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;
-		&lt;param name=&quot;filter&quot; value=&quot;publish=yes&quot; /&gt;
-	&lt;/object&gt;
+        <description>&lt;h2&gt;tableau图表代码嵌入测试&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1508927953445&quot; style=&quot;position: relative&quot;&gt;
+	&lt;noscript&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;近5年来中国以及周边地区记录的地震数据 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet0&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
+	&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; &lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt; &lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;name&quot; value=&quot;_15423&amp;#47;sheet0&quot; /&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet0&amp;#47;1.png&quot; /&gt; &lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;&lt;/object&gt;
 &lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1508652271903&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1508927953445&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1508932289171&quot; style=&quot;position: relative&quot;&gt;&lt;noscript&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;2000年 - 2017年9月中国西南地区3.0级以上地震数据地图 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet7&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; &lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt; &lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;name&quot; value=&quot;_15423&amp;#47;sheet7&quot; /&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet7&amp;#47;1.png&quot; /&gt; &lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;&lt;/object&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1508932289171&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1508928093988&quot; style=&quot;position: relative&quot;&gt;
+	&lt;noscript&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;2012-2017(10月)四川地震频率日历热力图 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet1&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
+	&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; &lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt; &lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;name&quot; value=&quot;_15423&amp;#47;sheet1&quot; /&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;_1&amp;#47;_15423&amp;#47;sheet1&amp;#47;1.png&quot; /&gt; &lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;&lt;/object&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1508928093988&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
 
 </description>
         <pubDate>Sun, 22 Oct 2017 00:00:00 +0800</pubDate>
