@@ -5,22 +5,28 @@
     <description></description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2017 22:54:13 +0800</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 22:54:13 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Nov 2017 22:28:05 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2017 22:28:05 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>中国地震数据可视化</title>
         <description>&lt;h3 id=&quot;section&quot;&gt;概要&lt;/h3&gt;
 &lt;hr /&gt;
-&lt;p&gt;中国在十年间（2006-2015）发生了126次里氏5.0级以上的地震，其中包括5次里氏7.0级的大地震，不仅带来了巨大的人员伤亡，对震区经济也带来了沉重打击。其中最严重的是08年的里氏8.0级的汶川大地震，仅此一震，人员伤亡和经济损失就占了大半。&lt;/p&gt;
+&lt;p&gt;中国是一个多地震的国家
+我国地处世界两大地震带（环太平洋地震带和喜马拉雅山——地中海地震带）之间。
+受此影响，我国地震活动不仅频度高，强度大，
+而且地震活动的范围很广，几乎全国各省均发生过强震。
+据统计，我国大陆地震约占世界大陆地震的三分之一。
+本世纪以来全球大陆7级以上强震，我国约占领35%，是一个多地震的国家。&lt;br /&gt;
+本次将利用&lt;strong&gt;tableau&lt;/strong&gt;对中国地震数据进行可视化分析&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;说明&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;p&gt;地理位置：中国&lt;br /&gt;
 时间周期：2006-2015&lt;br /&gt;
 分析单位：地震及其影响&lt;br /&gt;
-数据集：包含了&lt;code class=&quot;highlighter-rouge&quot;&gt;地区、年份、地震灾害次数、发生地质灾害次数、5.0-5.9级地震、6.0-6.9级地震、7.0级以上地震、人员伤亡、死亡人数、地方财政一般性预算支出、地方财政地震灾后重建支出、人口自然增长率、人口死亡率、人口出生率、地区生产总值、直接经济损失、医疗卫生机构数、地方财政医疗卫生支出、卫生人员数&lt;/code&gt;&lt;br /&gt;
+数据集：包含了&lt;strong&gt;地区、年份、地震灾害次数、发生地质灾害次数、5.0-5.9级地震、6.0-6.9级地震、7.0级以上地震、人员伤亡、死亡人数、地方财政一般性预算支出、地方财政地震灾后重建支出、人口自然增长率、人口死亡率、人口出生率、地区生产总值、直接经济损失、医疗卫生机构数、地方财政医疗卫生支出、卫生人员数&lt;/strong&gt; ， 
 共 &lt;strong&gt;19&lt;/strong&gt; 个指标 &lt;br /&gt;
 数据来源：&lt;a href=&quot;http://data.stats.gov.cn/&quot;&gt;中国国家数据网&lt;/a&gt;&lt;/p&gt;
 
@@ -41,7 +47,26 @@
 
 &lt;h3 id=&quot;demo&quot;&gt;Demo&lt;/h3&gt;
 &lt;hr /&gt;
-&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1510142657925&quot; style=&quot;position: relative&quot;&gt;&lt;noscript&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;故事 1 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;de&amp;#47;demo2_26&amp;#47;1_1&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; &lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt; &lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;name&quot; value=&quot;demo2_26&amp;#47;1_1&quot; /&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;de&amp;#47;demo2_26&amp;#47;1_1&amp;#47;1.png&quot; /&gt; &lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;&lt;/object&gt;&lt;/div&gt;
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1510142657925&quot; style=&quot;position: relative&quot;&gt;
+	&lt;noscript&gt;
+		&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;故事 1 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;de&amp;#47;demo2_26&amp;#47;1_1&amp;#47;1_rss.png&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt;
+	&lt;/noscript&gt;
+
+	&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;
+		&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt; 
+		&lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt; 
+		&lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;
+		&lt;param name=&quot;name&quot; value=&quot;demo2_26&amp;#47;1_1&quot; /&gt;
+		&lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;
+		&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;	images&amp;#47;de&amp;#47;demo2_26&amp;#47;1_1&amp;#47;1.png&quot; /&gt; 
+		&lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;
+		&lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;
+	&lt;/object&gt;
+&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;                    var divElement = document.getElementById(&#39;viz1510142657925&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;1016px&#39;;vizElement.style.height=&#39;944px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
 
 </description>
