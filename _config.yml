@@ -8,7 +8,7 @@ google_analytics:
 
 # SEO settings
 title: 特效观测站
-description:
+description: 个人网站
 url: "www.elpsycongroo.cc"
 twitter_username:
 default_img:
@@ -22,10 +22,41 @@ social:
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
-markdown: kramdown
+
+# 转换
+markdown:    kramdown
 kramdown:
   input: GFM
-highlight: true
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown 处理器
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+
+# kramdown:
+#   auto_ids:       true
+#   footnote_nr:    1
+#   entity_output:  as_char
+#   toc_levels:     1..6
+#   smart_quotes:   lsquo,rsquo,ldquo,rdquo
+#   enable_coderay: true
+
+
+
+#   coderay:
+#     coderay_wrap:              div
+#     coderay_line_numbers:      inline
+#     coderay_line_number_start: 1
+#     coderay_tab_width:         4
+#     coderay_bold_every:        10
+#     coderay_css:               style
+
 permalink: /:year/:month/:day/:title/
 
 # Sass

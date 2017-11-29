@@ -1,7 +1,7 @@
 /**
  * Base Variables
  */
-$font-header: 'Space Mono', monospace;
+$font-header: 'Space Mono', 宋体, monospace;
 $font-body: 'Inconsolata', monospace;
 $font-post: 'Lora', serif;
 
@@ -114,22 +114,68 @@ a {
   }
 }
 
+table td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+table th {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+td, th {
+    padding: 0;
+    display: table-cell;
+    vertical-align: inherit;
+    border:solid 1px #ccc;
+}
+
+table tr:nth-child(even) {
+  background: #f3f3f3;
+}
+
+table img {
+    background-color: transparent;
+}
+
+code table td, th {
+    padding: 0px;
+    display: table-cell;
+    vertical-align: inherit;
+    border: none;
+}
+
+code table {
+  border: none;
+}
+
 figure {
   margin: 0;
 }
 
 img {
   display: block;
-  width: 100%;
-  max-width: 100%;
+}
+
+.note .post .article .show-content blockquote {
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #f7f7f7;
+    border-left: 6px solid #b4b4b4;
+    word-break: break-word!important;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 blockquote {
-  margin: 2em 0;
-
-  font-family: $font-header;
-  font-weight: 700;
-  font-size: 1.25em;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #aaa;
+    background-color: #f3f3f3;
 }
 
 cite {
