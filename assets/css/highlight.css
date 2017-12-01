@@ -23,7 +23,7 @@ pre, code {
 /*    background: #f6f6f6;*/
     color: #333;
     -webkit-text-size-adjust: none;
-    display: -webkit-box;
+    display: block;
     white-space: pre;
     margin: 0.5em 0px;
     margin: 0px;

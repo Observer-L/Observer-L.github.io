@@ -4,8 +4,8 @@ title: "Markdown语法测试"
 date: 2017-09-10
 categories:
   - Test
-description: "Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。本博客使用kramdown解析器，本文是其语法在网页上的实现效果的测试。末尾附有Markdown相关的资料，推荐阅读以进行深一步的了解。"
-img_words: 
+description: "Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。本博客使用kramdown解析器，本文是其语法在网页上的实现效果的测试。"
+img_words: Mark!down↓
 image: /assets/images/other/choose-markdown.jpg
 image-sm: /assets/images/other/choose-markdown.jpg
 ---
@@ -75,6 +75,7 @@ image-sm: /assets/images/other/choose-markdown.jpg
 ### 文字高亮
 文字高亮功能能使行内部分文字高亮，使用一对反引号。  
 语法：
+
 ```
 `github-pages` `jekyll` `markdown` `特效观测站` 
 ```  
@@ -225,7 +226,7 @@ https://www.tuicool.com/articles/67Vjm2N -->
 因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁。
 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
 
-本文URL标识符都放置于文末
+本文URL标识符都放置于html文末
 
 # 图片
 ****
@@ -245,7 +246,7 @@ alt和title即对应HTML中的alt和title属性（都可省略）：
 ![alt](URL){:height="50%" width="50%"}
 ![alt](URL){:height="200px" width="400px"}
 ```  
-![jekyll logo](/assets/images/other/markdown-to-html.png "markdown-to-html" ){:height="50%" width="50%"}
+![markdown-to-html](/assets/images/other/markdown-to-html.png "markdown-to-html" ){:height="50%" width="50%"}
 
 
 # 引用嵌套：
@@ -352,5 +353,5 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 <!-- URL标识符 -->
 [bilibili_logo]:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511882026078&di=cb129bdff684094012a46e8e8d9d4780&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fc2cec3fdfc03924594d4502a8094a4c27d1e25b5.jpg "我的B站空间，欢迎关注"
 [bilibili_zone]:https://space.bilibili.com/2867458 "我的B站空间，欢迎关注"
-[blog-logo]:/assets/images/favicon.png "点击图片进入我的个人博客"
+[blog-logo]:https://github.com/Observer-L/Observer-L.github.io/blob/master/assets/images/base/favicon.png?raw=true "点击图片进入我的个人博客"
 [blog-link]:http://www.elpsycongroo.cc

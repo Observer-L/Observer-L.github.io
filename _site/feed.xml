@@ -5,8 +5,8 @@
     <description>个人网站</description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Dec 2017 21:10:18 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2017 21:10:18 +0800</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2017 21:30:28 +0800</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2017 21:30:28 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -170,11 +170,12 @@
 
 &lt;h3 id=&quot;section-6&quot;&gt;文字高亮&lt;/h3&gt;
 &lt;p&gt;文字高亮功能能使行内部分文字高亮，使用一对反引号。&lt;br /&gt;
-语法：
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-`github-pages` `jekyll` `markdown` `特效观测站` 
-&lt;/code&gt;&lt;br /&gt;
-效果：&lt;code class=&quot;highlighter-rouge&quot;&gt;github-pages&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;特效观测站&lt;/code&gt;
+语法：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`github-pages` `jekyll` `markdown` `特效观测站` 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;效果：&lt;code class=&quot;highlighter-rouge&quot;&gt;github-pages&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;特效观测站&lt;/code&gt;
 也适合做一篇文章的tag&lt;/p&gt;
 
 &lt;h1 id=&quot;section-7&quot;&gt;转义&lt;/h1&gt;
@@ -444,7 +445,7 @@ https://www.tuicool.com/articles/67Vjm2N --&gt;
     &lt;tr&gt;
       &lt;td&gt;2&lt;/td&gt;
       &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[![blog-logo]][blog-link]&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.elpsycongroo.cc&quot;&gt;&lt;img src=&quot;/assets/images/favicon.png&quot; alt=&quot;blog-logo&quot; title=&quot;点击图片进入我的个人博客&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.elpsycongroo.cc&quot;&gt;&lt;img src=&quot;https://github.com/Observer-L/Observer-L.github.io/blob/master/assets/images/base/favicon.png?raw=true&quot; alt=&quot;blog-logo&quot; title=&quot;点击图片进入我的个人博客&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -452,7 +453,7 @@ https://www.tuicool.com/articles/67Vjm2N --&gt;
 &lt;p&gt;因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁。
 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。&lt;/p&gt;
 
-&lt;p&gt;本文URL标识符都放置于文末&lt;/p&gt;
+&lt;p&gt;本文URL标识符都放置于html文末&lt;/p&gt;
 
 &lt;h1 id=&quot;section-16&quot;&gt;图片&lt;/h1&gt;
 &lt;hr /&gt;
@@ -474,7 +475,7 @@ https://www.tuicool.com/articles/67Vjm2N --&gt;
 &lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{:height=&quot;200px&quot; width=&quot;400px&quot;}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/other/markdown-to-html.png&quot; alt=&quot;jekyll logo&quot; title=&quot;markdown-to-html&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/other/markdown-to-html.png&quot; alt=&quot;markdown-to-html&quot; title=&quot;markdown-to-html&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;section-18&quot;&gt;引用嵌套：&lt;/h1&gt;
 &lt;hr /&gt;
