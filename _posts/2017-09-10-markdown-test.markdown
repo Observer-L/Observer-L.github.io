@@ -245,7 +245,7 @@ alt和title即对应HTML中的alt和title属性（都可省略）：
 ![alt](URL){:height="50%" width="50%"}
 ![alt](URL){:height="200px" width="400px"}
 ```  
-![jekyll logo](/assets/images/other/markdown-to-html.png "jekyll logo" ){:height="50%" width="50%"}
+![jekyll logo](/assets/images/other/markdown-to-html.png "markdown-to-html" ){:height="50%" width="50%"}
 
 
 # 引用嵌套：
