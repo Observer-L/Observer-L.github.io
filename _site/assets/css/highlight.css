@@ -1,18 +1,14 @@
-.highlight {
+.highlight , p > pre, p > code {
     background-color: #F3F3F3;
     color: #000;
+    max-width: 100%;
     overflow-x: auto;
     vertical-align: middle;
     border-radius: 5px;
     box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 1px rgba(0,0,0,0.5);
     }
 
-.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
-    background: #F3F3F3;
-    color: #000;
-    border-radius: 5px;
-    box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);
-}
+
 
 pre, code {
     white-space: pre;
