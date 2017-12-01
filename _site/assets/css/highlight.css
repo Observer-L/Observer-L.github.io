@@ -22,6 +22,8 @@ pre, code {
     display: inline-block;
     white-space: pre;
     margin: 0.5em 0px;
+    margin: 0px;
+    border: #000;
 }
 
 .lineno {
