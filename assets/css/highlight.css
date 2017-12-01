@@ -1,3 +1,7 @@
+p code {
+    display: -webkit-inline-box;
+}
+
 .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
     background: #fff;
     color: #333;
@@ -19,7 +23,7 @@ pre, code {
 /*    background: #f6f6f6;*/
     color: #333;
     -webkit-text-size-adjust: none;
-    display: inline-block;
+    display: -webkit-box;
     white-space: pre;
     margin: 0.5em 0px;
     margin: 0px;
