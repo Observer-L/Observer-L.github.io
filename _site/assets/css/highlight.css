@@ -1,24 +1,36 @@
-.highlight , p > pre, p > code {
-    background-color: #F3F3F3;
-    color: #000;
-    max-width: 100%;
-    overflow-x: auto;
-    vertical-align: middle;
+.highlight {
+    padding: 10px 0;
+    /* width: 100%; */
+    overflow: auto;
+}
+
+.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+    background: #333;
+    color: #fff;
     border-radius: 5px;
-    box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 1px rgba(0,0,0,0.5);
-    }
-
-
+    box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);
+}
 
 pre, code {
     white-space: pre;
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-family: Menlo, Consolas, 等线, "Courier New", Courier, "Liberation Mono", monospace;
+    font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 14px;
     padding: 0 .5em;
     line-height: 1.8em;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+@media (min-width: 768px)
+screen.css:761
+pre, code {
+    font-size: 16px;
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */
