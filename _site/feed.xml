@@ -5,8 +5,8 @@
     <description>个人网站</description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Dec 2017 13:55:26 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2017 13:55:26 +0800</lastBuildDate>
+    <pubDate>Sat, 02 Dec 2017 20:39:04 +0800</pubDate>
+    <lastBuildDate>Sat, 02 Dec 2017 20:39:04 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -613,7 +613,6 @@ graph TD;
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;script src=&quot;https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js&quot;&gt;&lt;/script&gt;
 &lt;div class=&quot;mermaid&quot;&gt;
 gantt
 　　　dateFormat　YYYY-MM-DD
