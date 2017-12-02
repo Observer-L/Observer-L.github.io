@@ -37,7 +37,7 @@
   <link rel="icon" type="image/png" href="/assets/images/base/favicon.png">
   
   <link rel="stylesheet" href="/assets/css/highlight.css">
-
+  <script type="text/javascript" src="https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js"></script>
   
 
   <script>
@@ -411,7 +411,7 @@ https://www.tuicool.com/articles/67Vjm2N -->
 <table>
   <thead>
     <tr>
-      <th>#</th>
+      <th> </th>
       <th>语法</th>
       <th style="text-align: center">效果</th>
     </tr>
@@ -547,6 +547,73 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 <p><br /></p>
 
+<h1 id="mermaid">mermaid绘图</h1>
+<hr />
+<p>第一种方法：无需插件在jekyll嵌入图表，只需在网页上引用mermaid</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mermaid"</span><span class="nt">&gt;</span>
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+</div>
+<div class="mermaid">
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</div>
+
+<p>第二种方法：jekyll-mermaid Plugin</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+{% mermaid %}
+　　　dateFormat　YYYY-MM-DD
+　　　title Adding GANTT diagram functionality to mermaid
+　　　section A section
+　　　Completed task　　:done, des1, 2014-01-06,2014-01-08
+　　　Active task 　　　　:active, des2, 2014-01-09, 3d
+　　　future task 　　　　:　　　  des3, after des2, 5d
+　　　future task2　　　　:　　　  des4, after des3, 5d
+　　　section Critical tasks
+　　　Completed task in the critical line　:crit, done, 2014-01-06,24h
+　　　Implement parser and json　　　　　　:crit, done, after des1, 2d
+　　　Create tests for parser　　　　　　　:crit, active, 3d
+　　　Future task in critical line　　　　　:crit, 5d
+　　　Create tests for renderer　　　　　　:2d
+　　　Add to ,mermaid　　　　　　　　　　　:1d
+{% endmermaid %}
+
+</code></pre>
+</div>
+<script src="https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js"></script>
+<div class="mermaid">
+gantt
+　　　dateFormat　YYYY-MM-DD
+　　　title Adding GANTT diagram functionality to mermaid
+　　　section A section
+　　　Completed task　　:done, des1, 2014-01-06,2014-01-08
+　　　Active task 　　　　:active, des2, 2014-01-09, 3d
+　　　future task 　　　　:　　　  des3, after des2, 5d
+　　　future task2　　　　:　　　  des4, after des3, 5d
+　　　section Critical tasks
+　　　Completed task in the critical line　:crit, done, 2014-01-06,24h
+　　　Implement parser and json　　　　　　:crit, done, after des1, 2d
+　　　Create tests for parser　　　　　　　:crit, active, 3d
+　　　Future task in critical line　　　　　:crit, 5d
+　　　Create tests for renderer　　　　　　:2d
+　　　Add to ,mermaid　　　　　　　　　　　:1d
+</div>
+
+<p>mermaid参考手册：<a href="https://github.com/knsv/mermaid">https://github.com/knsv/mermaid</a></p>
+
 <h1 id="section-21">视频</h1>
 <hr />
 <p>使用<strong>embed</strong>标签添加B站视频</p>
@@ -618,7 +685,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
-
+<script src="https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js"></script>
 
   </body>
 

@@ -5,8 +5,8 @@
     <description>个人网站</description>
     <link>www.elpsycongroo.cc/</link>
     <atom:link href="www.elpsycongroo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Dec 2017 21:30:28 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2017 21:30:28 +0800</lastBuildDate>
+    <pubDate>Sat, 02 Dec 2017 13:55:26 +0800</pubDate>
+    <lastBuildDate>Sat, 02 Dec 2017 13:55:26 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -431,7 +431,7 @@ https://www.tuicool.com/articles/67Vjm2N --&gt;
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
       &lt;th&gt;语法&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;效果&lt;/th&gt;
     &lt;/tr&gt;
@@ -566,6 +566,73 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;mermaid&quot;&gt;mermaid绘图&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;第一种方法：无需插件在jekyll嵌入图表，只需在网页上引用mermaid&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mermaid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;/div&gt;
+
+&lt;p&gt;第二种方法：jekyll-mermaid Plugin&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% mermaid %}
+　　　dateFormat　YYYY-MM-DD
+　　　title Adding GANTT diagram functionality to mermaid
+　　　section A section
+　　　Completed task　　:done, des1, 2014-01-06,2014-01-08
+　　　Active task 　　　　:active, des2, 2014-01-09, 3d
+　　　future task 　　　　:　　　  des3, after des2, 5d
+　　　future task2　　　　:　　　  des4, after des3, 5d
+　　　section Critical tasks
+　　　Completed task in the critical line　:crit, done, 2014-01-06,24h
+　　　Implement parser and json　　　　　　:crit, done, after des1, 2d
+　　　Create tests for parser　　　　　　　:crit, active, 3d
+　　　Future task in critical line　　　　　:crit, 5d
+　　　Create tests for renderer　　　　　　:2d
+　　　Add to ,mermaid　　　　　　　　　　　:1d
+{% endmermaid %}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+gantt
+　　　dateFormat　YYYY-MM-DD
+　　　title Adding GANTT diagram functionality to mermaid
+　　　section A section
+　　　Completed task　　:done, des1, 2014-01-06,2014-01-08
+　　　Active task 　　　　:active, des2, 2014-01-09, 3d
+　　　future task 　　　　:　　　  des3, after des2, 5d
+　　　future task2　　　　:　　　  des4, after des3, 5d
+　　　section Critical tasks
+　　　Completed task in the critical line　:crit, done, 2014-01-06,24h
+　　　Implement parser and json　　　　　　:crit, done, after des1, 2d
+　　　Create tests for parser　　　　　　　:crit, active, 3d
+　　　Future task in critical line　　　　　:crit, 5d
+　　　Create tests for renderer　　　　　　:2d
+　　　Add to ,mermaid　　　　　　　　　　　:1d
+&lt;/div&gt;
+
+&lt;p&gt;mermaid参考手册：&lt;a href=&quot;https://github.com/knsv/mermaid&quot;&gt;https://github.com/knsv/mermaid&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;section-21&quot;&gt;视频&lt;/h1&gt;
 &lt;hr /&gt;

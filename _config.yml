@@ -63,5 +63,11 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
+mermaid:
+  src: 'https://cdn.bootcss.com/mermaid/7.1.0/mermaid.min.js'
+
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, jekyll-mermaid]
+
+plugins_dir:
+  - jekyll-mermaid
