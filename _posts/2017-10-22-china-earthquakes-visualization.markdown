@@ -8,6 +8,7 @@ description: "数据可视化课程期中项目"
 img_words: "数据可视化"
 image: /assets/images/other/China__2012~2017_Earthquakes_Visualization.png
 image-sm: /assets/images/other/China__2012~2017_Earthquakes_Visualization.png
+comments: true
 ---
 ### 概要 
 ------ 

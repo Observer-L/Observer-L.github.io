@@ -8,7 +8,10 @@ description: "Markdown是一种可以使用普通文本编辑器编写的标记�
 img_words: Mark!down↓
 image: /assets/images/other/choose-markdown.jpg
 image-sm: /assets/images/other/choose-markdown.jpg
+comments: true
 ---  
+<a href="http://foo.com/bar.html#disqus_thread">Link</a>
+
 # 标题
 ****
 
