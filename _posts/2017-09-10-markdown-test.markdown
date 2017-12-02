@@ -10,8 +10,6 @@ image: /assets/images/other/choose-markdown.jpg
 image-sm: /assets/images/other/choose-markdown.jpg
 comments: true
 ---  
-<a href="http://foo.com/bar.html#disqus_thread">Link</a>
-
 # 标题
 ****
 
