@@ -4,7 +4,6 @@ title: "占位文11"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/cinemagraph/Coffee&Newspapers.gif
 image-sm: /assets/images/cinemagraph/Coffee&Newspapers.gif

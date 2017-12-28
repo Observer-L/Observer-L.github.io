@@ -4,7 +4,6 @@ title: "占位文16"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/cinemagraph/RoadsideNewspaper.gif
 image-sm: /assets/images/cinemagraph/RoadsideNewspaper.gif

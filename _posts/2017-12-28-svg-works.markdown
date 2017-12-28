@@ -1,0 +1,12 @@
+---
+layout: post
+title: "SVG动画作品合集"
+date: 2017-09-10
+categories:
+  - Portfolio
+description: "占坑"
+img_words: 
+image: /assets/images/other/choose-markdown.jpg
+image-sm: /assets/images/other/choose-markdown.jpg
+comments: true
+---  

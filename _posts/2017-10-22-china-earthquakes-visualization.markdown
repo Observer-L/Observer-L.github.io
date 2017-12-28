@@ -4,6 +4,7 @@ title: "中国地震数据可视化"
 date: 2017-10-22
 categories:
   - Data_Visualization
+  - Portfolio
 description: "数据可视化课程期中项目"
 img_words: "数据可视化"
 image: /assets/images/other/China__2012~2017_Earthquakes_Visualization.png

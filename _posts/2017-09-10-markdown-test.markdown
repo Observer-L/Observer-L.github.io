@@ -3,7 +3,7 @@ layout: post
 title: "Markdown语法测试"
 date: 2017-09-10
 categories:
-  - Test
+  - Study_Notes
 description: "Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。本博客使用kramdown解析器，本文是其语法在网页上的实现效果的测试。"
 img_words: Mark!down↓
 image: /assets/images/other/choose-markdown.jpg

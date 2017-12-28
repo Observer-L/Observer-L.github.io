@@ -4,7 +4,6 @@ title: "占位文7"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/painting/1e25153c90fa1c315a9d523ed95d007e_b.jpg
 image-sm: /assets/images/painting/1e25153c90fa1c315a9d523ed95d007e_b.jpg

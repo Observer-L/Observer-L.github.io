@@ -4,7 +4,6 @@ title: "占位文18"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description: "18  
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 img_words: "BIG BROTHER<br/>IS WATCHING <span style='color:red;font-family:Space Mono;'>YOU<span>"

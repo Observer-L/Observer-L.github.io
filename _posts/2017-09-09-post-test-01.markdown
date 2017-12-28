@@ -4,7 +4,6 @@ title: "占位文1"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/cinemagraph/Waving_reeds_cinemagraph.gif
 image-sm: /assets/images/cinemagraph/Waving_reeds_cinemagraph.gif

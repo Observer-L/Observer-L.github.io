@@ -4,7 +4,6 @@ title: "占位文12"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/cinemagraph/blink-lady.gif
 image-sm: /assets/images/cinemagraph/blink-lady.gif

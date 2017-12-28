@@ -3,7 +3,7 @@ layout: post
 title: "El Psy Congroo!"
 date: 2017-09-08
 categories:
-  - Test
+  - About-Me
 description:
 image: /assets/images/base/christina.jpg
 image-sm: /assets/images/base/christina.jpg

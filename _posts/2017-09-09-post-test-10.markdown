@@ -4,7 +4,6 @@ title: "占位文10"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/painting/b3e3d31f51d6c7d7721fd7d54d13c78aa0040c7d3a20d-2ZluZV_fw658.jpg
 image-sm: /assets/images/painting/b3e3d31f51d6c7d7721fd7d54d13c78aa0040c7d3a20d-2ZluZV_fw658.jpg

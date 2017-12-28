@@ -4,7 +4,6 @@ title: "占位文5"
 date: 2017-09-09
 categories:
   - Placeholder
-  - Test
 description:
 image: /assets/images/painting/Wanderer_above_the_Sea_of_Fog.jpg
 image-sm: /assets/images/painting/Wanderer_above_the_Sea_of_Fog.jpg
