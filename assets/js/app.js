@@ -55,7 +55,6 @@ var Preview = (function() {
   return {
     settings: {
       img: document.getElementsByClassName('preview__img'),
-      img_words: document.getElementsByClassName('img_words'),
       post: document.getElementsByClassName('preview')
     },
 
@@ -69,12 +68,6 @@ var Preview = (function() {
       if (s.img.length) {
         [].forEach.call(s.img, function(img, idx) {
           if (idx > 0) img.style.display = 'none';
-        });
-      }
-
-      if (s.img_words.length) {
-        [].forEach.call(s.img_words, function(img_words, idx) {
-          if (idx > 0) img_words.style.display = 'none';
         });
       }
     },
@@ -93,10 +86,6 @@ var Preview = (function() {
               s.img[prevIdx].style.display = 'none';
               s.img[currentIdx].style.display = 'block';
             }
-            if (prevIdx !== currentIdx) {
-              s.img_words[prevIdx].style.display = 'none';
-              s.img_words[currentIdx].style.display = 'block';
-            }           
           });
         });
       }
