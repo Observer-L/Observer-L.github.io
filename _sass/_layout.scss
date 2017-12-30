@@ -32,6 +32,11 @@ section {
   z-index: 1;
 }
 
+[class*='sidenav'] {
+  position: flxed;
+  z-index: 9999;
+}
+
 /**
  * Blog page
  */

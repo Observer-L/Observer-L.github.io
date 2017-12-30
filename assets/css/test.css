@@ -184,3 +184,80 @@ textarea {
 ::-webkit-file-upload-button {
 	-webkit-appearance:button;font:inherit
 }/*# sourceMappingURL=normalize.min.css.map */
+
+
+/*slider menu*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    opacity: 0.9
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #9f8f68;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+	color: aliceblue;
+	position: fixed;
+    z-index: 99999;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.boxed_item{
+	font-family: 'Open Sans';
+	font-weight: 200;
+	padding: 10px 20px;
+	display: inline-block;
+	border: solid 2px #9f8f68;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: #9f8f68;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.logo_bold{
+	font-weight: 800;
+}
+
+.logo_title{
+	color: #9f8f68;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0;
+}
