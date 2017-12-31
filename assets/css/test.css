@@ -212,7 +212,20 @@ textarea {
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: white;
+    background: rgba(159,143,104, 0.7);
+    font-weight:bold;
+    transform: scale(1.1);
+}
+
+.sidenav center a:hover {
+	background: none;
+}
+
+.sidenav .closebtn:hover{
+	background: none;
+	transform: scale(1.1);
+	color:#9f8f68;
 }
 
 .sidenav .closebtn {
