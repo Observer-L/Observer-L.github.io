@@ -311,3 +311,9 @@ textarea {
     bottom: 133px;
   }
 }
+
+/*Comment System*/
+#lv-container {
+	width: 80%;
+	margin:0 auto;
+}
