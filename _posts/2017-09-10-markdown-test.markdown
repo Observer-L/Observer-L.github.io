@@ -9,7 +9,6 @@ img_words: Mark!down↓
 image: /assets/images/other/choose-markdown.jpg
 image-sm: /assets/images/other/choose-markdown.jpg
 comments: true
-permalink: /posts/rwd/markdown-test
 ---  
 # 标题
 ****

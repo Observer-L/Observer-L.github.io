@@ -9,7 +9,6 @@ img_words: Media Queries
 image: /assets/images/svg/screen-size-and-media-queries-1-730x335.svg
 image-sm: /assets/images/svg/screen-size-and-media-queries-1-730x335.svg
 comments: true
-permalink: /posts/rwd/media-queries
 ---  
 一个**媒体查询**由一个可选的媒体类型和零个或多个使用媒体功能的限制了样式表范围的表达式组成，例如宽度、高度和颜色。**媒体查询**，添加自CSS3，允许内容的呈现针对一个特定范围的输出设备而进行裁剪，而不必改变内容本身。
 <hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">

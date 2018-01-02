@@ -10,7 +10,6 @@ img_words: "数据可视化"
 image: /assets/images/other/China__2012~2017_Earthquakes_Visualization.png
 image-sm: /assets/images/other/China__2012~2017_Earthquakes_Visualization.png
 comments: true
-permalink: /posts/infovis/china-earthquakes-visualization
 ---
 ### 概要 
 ------ 
