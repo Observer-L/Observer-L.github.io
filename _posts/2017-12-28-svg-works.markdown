@@ -9,6 +9,7 @@ img_words:
 image: /assets/images/svg/SVG-Easy.gif
 image-sm: /assets/images/svg/SVG-Easy.gif
 comments: true
+permalink: /posts/rwd/svg-works
 ---
 
 ## 1.文学与传媒学院LOGO

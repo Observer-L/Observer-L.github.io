@@ -10,6 +10,7 @@ img_words:
 image: /assets/images/other/animate_css.gif
 image-sm: /assets/images/other/animate_css.gif
 comments: true
+permalink: /posts/rwd/css-animation
 ---
 
 ## CSS动画有什么优点？
