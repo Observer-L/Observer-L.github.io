@@ -6,8 +6,8 @@ categories:
   - Study_Notes
 description: "无论是阅读还是制作，我尤其喜欢用视觉语言讲故事。对于数据可视化，我也算是个小白爱好者。数据可视化其实在日常生活中有许多应用，例如地铁路线图、智能手表、气象地图、体育赛事、双十一数据大屏等..."
 img_words: "数据可视化是手段<br/>不是目的"
-image: /assets/images/svg/scribble&programmer.svg
-image-sm: /assets/images/svg/scribble&programmer.svg
+image: /assets/images/other/scribble&programmer.jpg
+image-sm: /assets/images/other/scribble&programmer.jpg
 comments: true
 ---  
 
