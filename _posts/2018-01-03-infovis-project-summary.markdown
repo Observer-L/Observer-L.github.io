@@ -4,6 +4,7 @@ title: "数据可视化课程项目总结"
 date: 2018-01-03
 categories:
   - Study_Notes
+tag: infovis
 description: "无论是阅读还是制作，我尤其喜欢用视觉语言讲故事。对于数据可视化，我也算是个小白爱好者。数据可视化其实在日常生活中有许多应用，例如地铁路线图、智能手表、气象地图、体育赛事、双十一数据大屏等..."
 img_words: "数据可视化是手段<br/>不是目的"
 image: /assets/images/other/scribble&programmer.jpg
@@ -91,3 +92,9 @@ POWER([震级(M)],10)
 
 
 > 最好的可视化是用最简单的图表、最合适的方式来表达自己想要表达的，表达别人想看的、别人需要的信息。 ———路人甲，[知乎](https://www.zhihu.com/people/sgai/activities)
+
+<hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">
+### 相关链接：
+1. <http://www.elpsycongroo.cc/posts/infovis/> (*个人数据可视化笔记*)  
+2. <https://www.zhihu.com/question/263903371> (*知乎：数据可视化现在在市场上重不重要？*)  
+<hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">

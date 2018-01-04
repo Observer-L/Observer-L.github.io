@@ -4,6 +4,7 @@ title: "CSS媒体查询"
 date: 2018-01-02
 categories:
   - Study_Notes
+tag: rwd
 description: "一个媒体查询由一个可选的媒体类型和零个或多个使用媒体功能的限制了样式表范围的表达式组成，例如宽度、高度和颜色。媒体查询，添加自CSS3，允许内容的呈现针对一个特定范围的输出设备而进行裁剪，而不必改变内容本身。"
 img_words: Media Queries
 image: /assets/images/svg/screen-size-and-media-queries-1-730x335.svg
@@ -71,6 +72,6 @@ comments: true
 
 <hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">
 ### 相关链接：
-1. <http://https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries> (*CSS媒体查询* —<a href="http://www.jianshu.com/u/neLruC">MDN Web 文档</a>)  
-2. <http://https://www.w3cschool.cn/cssref/css3-pr-mediaquery.html> (*W3school CSS3 @media查询*)  
+1. <https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries> (*CSS媒体查询* —<a href="http://www.jianshu.com/u/neLruC">MDN Web 文档</a>)  
+2. <https://www.w3cschool.cn/cssref/css3-pr-mediaquery.html> (*W3school CSS3 @media查询*)  
 <hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">

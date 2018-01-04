@@ -5,6 +5,7 @@ date: 2018-01-03
 categories:
   - Data_Visualization
   - Portfolio
+tag: infovis
 description: "数据可视化课程期末项目"
 img_words: "数据可视化"
 image: /assets/images/other/GaodeMapSearchAPI.png

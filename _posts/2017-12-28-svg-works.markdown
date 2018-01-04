@@ -4,6 +4,7 @@ title: "SVG动画作品合集"
 date: 2017-12-28
 categories:
   - Portfolio
+tag: rwd
 description: "占坑"
 img_words: 
 image: /assets/images/svg/SVG-Easy.gif

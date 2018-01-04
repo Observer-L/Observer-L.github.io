@@ -5,6 +5,7 @@ date: 2018-01-01
 categories:
   - Portfolio
   - Study_Notes
+tag: rwd
 description: "简单介绍一下CSS动画以及在本博客的使用实例。"
 img_words: 
 image: /assets/images/other/animate_css.gif
