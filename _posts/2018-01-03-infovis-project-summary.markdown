@@ -19,7 +19,7 @@ comments: true
 <table><tr>  
 <td><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1514971811633&di=2cbebf92b63830a9663195537b6fd11b&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170327%2F1a787fc1b8114d0c8a15c3047fcf8080_th.jpeg" alt="阿里云DataV双十一大屏" width="100%">阿里云DataV双十一大屏</td>
 
-<td><img src="https://pic3.zhimg.com/v2-960e1170a1e5adae1477ca36088fafa4_r.jpg" alt="2016美国总统选举" width="100%">2016美国总统选举</td>
+<td><img src="/assets/images/other/US_election_results.jpg" alt="2016美国总统选举" width="100%">2016美国总统选举</td>
 </tr></table>
 
 <br/>
@@ -68,7 +68,7 @@ POWER([震级(M)],10)
 成品展示：[原文链接](http://www.elpsycongroo.cc/2018/01/03/gaodemap-search-api-keywords-visualization/)
 
 #### 碰到了什么问题？
-+ 抓取到的数据量是够了，都是里面存在不少垃圾数据。  
++ 抓取到的数据量是够了，但是里面存在不少垃圾数据。  
 例如电玩城在餐饮服务业有数据，查看数据源里甚至有足浴城、KTV和老年活动中心：
 ![初始数据](/assets/images/other/GdMap_data.jpg )
 
