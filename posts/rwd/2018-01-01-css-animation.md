@@ -5,6 +5,7 @@ date: 2018-01-01
 categories:
   - Portfolio
   - Study_Notes
+tag: rwd
 description: "简单介绍一下CSS动画以及在本博客的使用实例。"
 img_words: 
 image: /assets/images/other/animate_css.gif
@@ -58,8 +59,7 @@ CSS3 动画属性
 
 <p data-height="300" data-theme-id="0" data-slug-hash="mpmZYd" data-default-tab="css,result" data-user="Observer-L" data-embed-version="2" data-pen-title="下划线Hover动画" class="codepen">See the Pen <a href="https://codepen.io/Observer-L/pen/mpmZYd/">下划线Hover动画</a> by 观测者 (<a href="https://codepen.io/Observer-L">@Observer-L</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-<p data-height="401" data-theme-id="0" data-slug-hash="vpJxJB" data-default-tab="result" data-user="Observer-L" data-embed-version="2" data-pen-title="404了？！去你的吧！！！" class="codepen">See the Pen <a href="https://codepen.io/Observer-L/pen/vpJxJB/">404了？！去你的吧！！！</a> by 观测者 (<a href="https://codepen.io/Observer-L">@Observer-L</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="425" data-theme-id="0" data-slug-hash="vpJxJB" data-default-tab="result" data-user="Observer-L" data-embed-version="2" data-pen-title="特效观测站404？翻桌！回去！！！" class="codepen">See the Pen <a href="https://codepen.io/Observer-L/pen/vpJxJB/">特效观测站404？翻桌！回去！！！</a> by 观测者 (<a href="https://codepen.io/Observer-L">@Observer-L</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 <hr style="border-top:3px solid #3f87a6;margin: 50px 0px 50px 0px;">
 ### 相关链接：
