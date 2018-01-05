@@ -1,0 +1,6 @@
+@media print {
+  #main, .pagination, header, .footer {display: none;}
+  .previews div:first-child{
+    height: 7em;
+  }
+}
