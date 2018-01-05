@@ -45,15 +45,20 @@
  #mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus{color:#fff}
  #mainNav .navbar-nav li.nav-item a.nav-link.active{color:#18bc9c}
  #mainNav .navbar-toggler{font-size:80%;padding:.8rem}@media (min-width:992px){#mainNav{padding-top:1.5rem;padding-bottom:1.5rem;-webkit-transition:padding-top .3s,padding-bottom .3s;-moz-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s}
- #mainNav .navbar-brand{font-size:2em;-webkit-transition:font-size .3s;-moz-transition:font-size .3s;transition:font-size .3s}
- #mainNav .navbar-nav{margin-top:0}#mainNav .navbar-nav>li.nav-item>a.nav-link.active{color:#fff;background:#18bc9c}
+ #mainNav .navbar-brand{
+  font-size:2em;
+  -webkit-transition:font-size .3s;
+  -moz-transition:font-size .3s;
+  transition:font-size .3s;
+  transition: all .5s ease-in-out;}
+ #mainNav .navbar-nav{margin-top:0}
+ #mainNav .navbar-nav>li.nav-item>a.nav-link.active{color:#fff;background:#18bc9c}
  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{color:#fff;background:#18bc9c}
  #mainNav.navbar-shrink{padding-top:.5rem;padding-bottom:.5rem}
  #mainNav.navbar-shrink .navbar-brand{font-size:1.5em}}
 
  #mainNav .navbar-brand:hover {
  	transform: scale(1.1);
- 	transition: all 0.5s;
  }
 
  header.masthead{padding-top:calc(3rem + 72px);padding-bottom:3rem}

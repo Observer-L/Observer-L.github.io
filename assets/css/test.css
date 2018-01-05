@@ -330,3 +330,10 @@ textarea {
 	width: 80%;
 	margin:0 auto;
 }
+
+/*copyright*/
+#copyright {
+  font-family: microsoft yahei ui;
+    font-size: .5rem;
+    margin: 0 20px 0 20px;
+}
