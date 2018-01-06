@@ -5,7 +5,7 @@ date: 2017-12-28
 categories:
   - Portfolio
 tag: rwd
-description: "占坑"
+description: "通往精通SVG动画之路的每一步！"
 img_words: 
 image: /assets/images/svg/SVG-Easy.gif
 image-sm: /assets/images/svg/SVG-Easy.gif

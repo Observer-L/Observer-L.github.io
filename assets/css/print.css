@@ -1,6 +1,12 @@
 @media print {
-  #main, .pagination, header, .footer {display: none;}
+  #main, .pagination, header, .footer__archive, .footer__social, .preview__more {display: none;}
   .previews div:first-child{
     height: 7em;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left:120px;
+    width: 100%;
   }
 }
