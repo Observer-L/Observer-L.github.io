@@ -5,8 +5,28 @@ permalink: /infovis/
 ---
  <style type="text/css">
    @media print {
-    #web_design, .navbar, footer, header.masthead h2, .portfolio-modal mfp-hide, .portfolio hr .cd-top {
+    #web_design, .navbar, footer, header, header.masthead h2, .portfolio-modal mfp-hide, .portfolio hr .cd-top, .row {
     display: none;
+  }
+  #container h2 {
+    position: fixed;
+    top: : 0;
+  }
+  .portfolio {
+    padding-top: 0rem;
+  }
+  .img_forprint {
+    display: block;
+  }
+  #fold_forprint {
+    width: 100%;
+  }
+  .copyright {
+        padding-bottom: 0.5rem!important;
+        padding-top: 0.5rem!important;
+  }
+  a table {
+    color: black;
   }
 }
  </style>
@@ -46,6 +66,20 @@ permalink: /infovis/
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;数据可视化</h2>
         <hr class="star-dark mb-5">
+        <center class="img_forprint">——————————————  你周围有什么有趣的地方？ ——————————————</center>
+        <a href="http://www.elpsycongroo.cc/2018/01/03/gaodemap-search-api-keywords-visualization/"><img class="img_forprint" id="fold_forprint" src="/assets/images/other/GaodeMapSearchAPI.png"></a>
+        <a href="http://www.elpsycongroo.cc/2017/10/22/china-earthquakes-visualization/"><table class="img_forprint">
+          <tr>
+            <td><img class="img_forprint" src="/assets/images/other/China__2012~2017_Earthquakes_Visualization.jpg">中国地震地图气泡图</td>
+            <td><img class="img_forprint" src="/assets/images/other/China__2006~2015_Earthquakes_Visualization.jpg" height="25%">地震十年走势</td>
+          <tr>
+            <td><img class="img_forprint" src="/assets/images/other/DepthOfHypocenter.png" height="25%">中国浅源地震多还是深源地震多？</td>
+            <td><img class="img_forprint" src="/assets/images/other/SouthwestEarthquake.png">西南：十年三大震</td>
+          </tr>
+          </tr>
+        </table></a>
+        
+        
         <div class="row">
           <div class="col-md-6 col-lg-4">
       <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -214,11 +248,12 @@ permalink: /infovis/
         </a>
         <div class="container text-center">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">期末项目 - 利用高德API</h2>
               <hr class="star-dark mb-5">
                 <p><i class="fa fa-hand-o-right" aria-hidden="true"></i><a href="http://www.elpsycongroo.cc/2018/01/03/gaodemap-search-api-keywords-visualization/">&nbsp;原文</a></p>
-<div class='tableauPlaceholder' id='viz1514969953920' style='position: relative'><noscript><a href='#'><img alt='故事 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AP&#47;API_7&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='API_7&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AP&#47;API_7&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514969953920');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1060px';vizElement.style.height='1022px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1515254411615' style='position: relative'><noscript><a href='#'><img alt='高德地图搜索服务API ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PO&#47;POI_6&#47;API&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='POI_6&#47;API' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PO&#47;POI_6&#47;API&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                
+<script type='text/javascript'>                    var divElement = document.getElementById('viz1515254411615');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1200px';vizElement.style.height='927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 <br/><br/><br/>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>

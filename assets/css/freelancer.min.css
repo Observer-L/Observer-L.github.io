@@ -118,6 +118,10 @@
   text-decoration: none;
 }
 
+  .img_forprint {
+  display: none;
+}
+
 
 /*print css*/
 @media print {
