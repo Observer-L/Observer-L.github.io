@@ -1,91 +1,136 @@
-/**
- * Underline Slide from left and back
- */
-@mixin border-slide($mainColor: $color-black, $borderColor: $color-alpha, $height: 3px) {
-  position: relative;
+// - - - - - - - - - - - - - - - - - -
 
-  color: $mainColor;
+// Mixins
 
-  &:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
+// - - - - - - - - - - - - - - - - - -
 
-    width: 0%;
-    border-bottom: $height solid $borderColor;
-    transition: width 0.4s ease-in-out;
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Responsive
+// Usage: @include mq(tabletp) {}
+
+$break-phonel: 480px;
+$break-tabletp: 768px;
+$break-tabletl: 1024px;
+$break-laptop: 1220px;
+$break-desktop: 1420px;
+
+@mixin mq($media) {
+	@if $media == phonel {
+		@media only screen and (min-width: $break-phonel) { @content; }
+	}
+	@else if $media == tabletp {
+		@media only screen and (min-width: $break-tabletp) { @content; }
+	}
+	@else if $media == tabletl {
+		@media only screen and (min-width: $break-tabletl) { @content; }
+	}
+	@else if $media == laptop {
+		@media only screen and (min-width: $break-laptop) { @content; }
+	}
+	@else if $media == desktop {
+		@media only screen and (min-width: $break-desktop) { @content; }
+	}
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Transitions
+// Usage: @include transition(color .3s ease);
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Animations
+// Usage:
+// @include keyframes(slide-down) {
+//   0% { opacity: 1; }
+//   90% { opacity: 0; }
+// }
+// .element {
+//   @include animation('slide-down 5s 3');
+// }
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Transforms
+// Usage:
+// @include skew(25,10);
+// @include transform-origin(top left);
+
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+@mixin scale($scale) {
+  @include transform(scale($scale));
+} 
+@mixin translate ($x, $y) {
+  @include transform(translate($x, $y));
+}
+@mixin skew ($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+       -o-transform-origin: $origin;
+      -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Styles
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
   }
-
-  &:hover:after {
-    width: 100%;
-  }
-}
-
-/**
- * Button Slide
- * Need to still add hover state in parent element
- * box-shadow: inset 175px 0 0 0 $color-alpha;
- * color: $color-white;
- */
-@mixin button-slide($pad: 0.5em, $border: 3px) {
-  @extend %letter-spacing;
-
-  display: inline-block;
-  padding: $pad;
-
-  font-family: $font-header;
-  color: $color-alpha;
-  border: $border solid $color-alpha;
-  box-shadow: inset 0 0 0 0 $color-alpha;
-  transition: all 0.4s ease-in-out;
-}
-
-/**
- * Flex Grid
- */
-@mixin flex-grid($sm: null, $md: null, $lg: null, $xl: null, $xxl: null, $pad: 0) {
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-
-  & > * {
-    padding: $pad;
-    flex-basis: 100% / $sm;
-    max-width: 100% / $sm;
-    
-    @media (min-width: $mq-md) {
-      flex-basis: 100% / $md;
-      max-width: 100% / $md;
-    }
-
-    @if $lg {
-      @media (min-width: $mq-lg) {
-        flex-basis: 100%/$lg;
-        max-width: 100%/$lg;
-      }
-    }
-
-    @if $xl {
-      @media (min-width: $mq-xl) {
-        flex-basis: 100% / $xl;
-        max-width: 100% / $xl;
-      }
-    }
-
-    @if $xxl {
-      @media (min-width: $mq-xxl) {
-        flex-basis: 100% / $xxl;
-        max-width: 100% / $xxl;
-      }
-    }
-  }
 }
 
 
-/**
- * Box Shadow
- */
-@mixin box-shadow($size, $color: $color-black) {
-  box-shadow: 0 $size $size * 2 rgba($color, 0.1), 0 $size $size * 2 rgba($color, 0.2);
-}
+
+

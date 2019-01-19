@@ -1,92 +1,48 @@
 ---
 layout: default
+title: 🚶 Do not go gentle into that good night
+description: 个人博客
+featured_image: /images/favicon.png
 ---
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <center>
-  <img src="/assets/images/base/avatar.svg" width=50%>
-  </center>
-  <center>
-      <a href="http://www.elpsycongroo.cc"><h1 class="boxed_item">Observer <span class="logo_bold">L</span></h1>
-      </a>
-      <h2 class="logo_title">El psy congroo</h2>
-  </center>
-  <br/>
-  <a href="http://www.elpsycongroo.cc/category/about-me/"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;关于我</a>
-  <a href="http://www.elpsycongroo.cc/portfolio/"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;作品集</a>
-  <a href="http://www.elpsycongroo.cc/category/study-notes/"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;学习笔记</a>
-  <a href="http://linliphotography.com/portfolio/"><i class="fa fa-camera-retro" aria-hidden="true"></i>&nbsp;摄影作品</a>
-  <a href="http://linliphotography.com/to-do-list"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;To-Do Lists</a>
-<!--   <a class="fa fa-lg fa-github" href="https://github.com/Observer-L" target="_blank">  GitHub</a>
-  <a class="fa fa-youtube-play" href="https://space.bilibili.com/2867458" target="_blank">  Bilibili</a>
-  <a class="fa fa-lg fa-envelope-o" href="mailto:observer_l@163.com">  Email</a> -->
+<section class="intro">
 
-      <center>
-      <a href="http://linliphotography.com/"><h1 class="boxed_item boxed_item_smaller signup">
-      <i class="fa fa-user"></i>
-        特效观测站
-      </h1></a>
-      <h2 class="logo_title">视频工作室</h2>
-    </center>
+	<div class="wrap">
 
-</div>
+		<h1>❔ Do not go gentle into that good night. 🚶</h1>
+		<p>I am a college student, a vlogger and the OBSERVER.</p>
 
-<div id="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-</div>
+	</div>
 
-<section class="previews">
-  <div>
-    {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-    {% endfor %}
-    <div class="previews__container">
-      {% for post in paginator.posts %}
-          <h1 class="img_words">{{ post.img_words }}</h1>
-      {% endfor %}
-    </div>
-  </div>
+</section>
 
-  <div>
-    <header>
-      <ul class="tabs">
-        <li class="tabs__item">Posts</li>
-        <li class="tabs__item">Categories</li>
-      </ul>
-    </header>
+<section class="portfolio">
 
-    <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
-        {% for post in paginator.posts %}
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <p class="preview__excerpt" itemprop="description">{{ post.description | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+	<div class="content-wrap portfolio-wrap">
 
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-          {% endif %}
+		{% for project in site.projects reversed %}
 
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-          {% endif %}
-        </div>
-      {% endif %}
+		<div class="portfolio-item">
 
-      {% include archive-link.html %}
-    </div>
+			<a class="portfolio-item__link" href="{{ project.url }}">
 
-    {% include categories-tab.html %}
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
 
-  </div>
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
 
 </section>
