@@ -48,7 +48,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-mermaid
 
 paginate: 6
 paginate_path: "/blog/page:num/"
@@ -60,6 +59,3 @@ grid_columns:
   two: Two
   three: Three
   four: Four
-
-mermaid:
-  src: '/js/plugins/mermaid.min.js'
