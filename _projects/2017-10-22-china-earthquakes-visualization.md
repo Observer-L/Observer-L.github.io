@@ -4,6 +4,7 @@ subtitle: ''
 date: 2017-10-22 00:00:00
 featured_image: 'images/projects/China__2012~2017_Earthquakes_Visualization.png'
 ---
+<script>console.log(5)</script>
 ## 概要 
 中国是一个多地震的国家。我国地处世界两大地震带（环太平洋地震带和喜马拉雅山——地中海地震带）之间。
 受此影响，我国地震活动不仅频度高，强度大，
@@ -37,36 +38,31 @@ featured_image: 'images/projects/China__2012~2017_Earthquakes_Visualization.png'
 * 哪个地区受地震影响最严重？
 * 西南地区地震活动如何？
 * 震区的灾后重建力度如何？
-* 地震人员伤亡对人口造成了什么影响？   
-  
-## Demo1
+* 地震人员伤亡对人口造成了什么影响？
 ------ 
+## Demo1
 <div class='tableauPlaceholder' id='viz1510142657925' style='position: relative;'>
-	<noscript>
-		<a href='#'><img alt='故事 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;demo2_26&#47;1_1&#47;1_rss.png' style='border: none' /></a>
-	</noscript>
+<noscript>
+  <a href='#'><img alt='故事 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;demo2_26&#47;1_1&#47;1_rss.png' style='border: none' /></a>
+</noscript>
 
-	<object class='tableauViz'  style='display:none;'>
-		<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-		<param name='embed_code_version' value='3' /> 
-		<param name='site_root' value='' />
-		<param name='name' value='demo2_26&#47;1_1' />
-		<param name='tabs' value='no' />
-		<param name='toolbar' value='yes' />
-		<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;	images&#47;de&#47;demo2_26&#47;1_1&#47;1.png' /> 
-		<param name='animate_transition' value='yes' />
-		<param name='display_static_image' value='yes' />
-		<param name='display_spinner' value='yes' />
-		<param name='display_overlay' value='yes' />
-		<param name='display_count' value='yes' />
-	</object>
-</div>                
-
-<br/>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='embed_code_version' value='3' /> 
+  <param name='site_root' value='' />
+  <param name='name' value='demo2_26&#47;1_1' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;	images&#47;de&#47;demo2_26&#47;1_1&#47;1.png' /> 
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+</object>
+</div>
 
 ## Demo2
------- 
-
 ![China__2012~2017_Earthquakes_Visualization.gif](/images/projects/China__2012~2017_Earthquakes_Visualization.gif)
 
 <div class='tableauPlaceholder' id='viz1511970168024' style='position: relative;'>
