@@ -4,7 +4,6 @@ subtitle: ''
 date: 2017-10-22 00:00:00
 featured_image: 'images/projects/China__2012~2017_Earthquakes_Visualization.png'
 ---
-<script>console.log(5)</script>
 ## 概要 
 中国是一个多地震的国家。我国地处世界两大地震带（环太平洋地震带和喜马拉雅山——地中海地震带）之间。
 受此影响，我国地震活动不仅频度高，强度大，

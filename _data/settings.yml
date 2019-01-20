@@ -21,7 +21,7 @@ footer_settings:
   footer_tagline: EL PSY CONGROO
 
 grid_settings:
-  overlay_opacity: 0.6
+  overlay_opacity: 0.8
   grid_spacing: 20
 
 social_settings:

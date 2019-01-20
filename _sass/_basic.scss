@@ -389,3 +389,44 @@ section {
 		max-width: 60%;
 	}
 }
+
+table {
+  border: 2px solid #2A2F36;
+  margin: 0 auto
+}
+
+table thead {
+  background: #2A2F36;
+  color: #fff;
+  text-align: left;
+  font-weight: 600
+}
+
+table thead th {
+  font-weight: 600
+}
+
+table td,table th {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left !important
+}
+
+@media only screen and (min-width: 768px) {
+  table td,table th {
+      padding:15px;
+      font-size: 17px
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  table td,table th {
+      padding:20px;
+      font-size: 19px
+  }
+}
+
+table tr:nth-child(2n) {
+  background: #f4f5f6
+}
