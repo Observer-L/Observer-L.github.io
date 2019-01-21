@@ -28,7 +28,7 @@ featured_image: '/images/projects/scribble&programmer.jpg'
 ----
 
 ## 期中项目
-课程的期中项目限定使用国家数据网数据，我打算做中国地震的数据可视化，无奈国家数据网于这方面的数据又少又简。于是在此前提下又从[中国地震台网](http://data.stats.gov.cn/)和[美国地质勘探局（USGS）](https://www.usgs.gov/)拿到了更多有利于详细分析的数据，最后成功完成[期中项目](http://www.elpsycongroo.cc/2017/10/22/china-earthquakes-visualization/)。
+课程的期中项目限定使用国家数据网数据，我打算做中国地震的数据可视化，无奈国家数据网于这方面的数据又少又简。于是在此前提下又从[中国地震台网](https://data.stats.gov.cn/)和[美国地质勘探局（USGS）](https://www.usgs.gov/)拿到了更多有利于详细分析的数据，最后成功完成[期中项目](/project/china-earthquakes-visualization)。
 
 #### 碰到了什么问题？
 
@@ -47,10 +47,10 @@ POWER([震级(M)],10)
 ----
 
 ## 期末项目
-利用高德地图Web服务的[搜索API](http://lbs.amap.com/api/webservice/guide/api/search/)用Python抓取数据，做一个中国“新兴”的活动或业务地理分布可视化。  
+利用高德地图Web服务的[搜索API](https://lbs.amap.com/api/webservice/guide/api/search/)用Python抓取数据，做一个中国“新兴”的活动或业务地理分布可视化。  
 关键词是：`电玩城` `鬼屋` `女仆咖啡屋` `真人cs` `桌游`  
 数据量：26341  
-成品展示：[原文链接](http://www.elpsycongroo.cc/2018/01/03/gaodemap-search-api-keywords-visualization/)
+成品展示：[原文链接](/project/gaodemap-search-api-poi-visualization)
 
 #### 碰到了什么问题？
 + 抓取到的数据量是够了，但是里面存在不少垃圾数据。  
