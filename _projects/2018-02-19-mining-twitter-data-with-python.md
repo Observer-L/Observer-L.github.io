@@ -33,7 +33,7 @@ featured_image: 'images/projects/trump11.png'
 Twitter提供了官方的API供用户用python语言与客户端交互，我们可以用它获取到所需要的数据，具体方法参见<a href="https://developer.twitter.com/en.html" target="_blank" rel="noopener">推特API说明文档</a>。但是，官方API有限制，我想要的是特朗普的的全部tweets，因此放弃这个方法。
 但是还是可以利用它搞事情，关于Twitter API，你可以到我的<a href="https://github.com/Observer-L/Mining-Twitter-Data-with-Python" target="_blank" rel="noopener">Github</a>看看。
 
-好在我发现了一个很棒的 <a href="http://www.trumptwitterarchive.com/" target="_blank" rel="noopener">Trump Twitter Archive</a> ，作者是 <a href="https://twitter.com/realtrumptweet" target="_blank" rel="noopener">Brendan Brown</a>。里面提供了特朗普自2009年至今的tweets,而且持续更新！我们可以利用Python很轻松地拿到所需数据：
+好在我发现了一个很棒的 <a href="https://www.trumptwitterarchive.com/" target="_blank" rel="noopener">Trump Twitter Archive</a> ，作者是 <a href="https://twitter.com/realtrumptweet" target="_blank" rel="noopener">Brendan Brown</a>。里面提供了特朗普自2009年至今的tweets,而且持续更新！我们可以利用Python很轻松地拿到所需数据：
 
 ```python
 import requests
@@ -308,7 +308,7 @@ def get_tweet_sentiment(tweet):
     else:
         return 'Negative'
 ```
-<a href="http://textblob.readthedocs.io/en/dev/" target="_blank" rel="noopener">textblob</a>是在NLTK之上构建的，可以轻松实现一些简单的NLP任务如词类标注和情感分析等。
+<a href="https://textblob.readthedocs.io/en/dev/" target="_blank" rel="noopener">textblob</a>是在NLTK之上构建的，可以轻松实现一些简单的NLP任务如词类标注和情感分析等。
 这里利用textblob简单实现了推文的情感分析，但如果要让结果更加精准的话，还是要自己去训练模型。
 
 <img src="/images/projects/trump14.png" />
