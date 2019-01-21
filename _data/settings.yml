@@ -21,7 +21,7 @@ footer_settings:
   footer_tagline: EL PSY CONGROO
 
 grid_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.9
   grid_spacing: 20
 
 social_settings:
@@ -150,6 +150,12 @@ font_settings:
   buttons:
     weight: 600
     letter_spacing: 0
+
+contact_settings:
+  form_action: "https://formspree.io/epcobserver@gmail.com"
+  confirmation_url: "/thanks"
+  email_subject: "Contact form submission"
+  send_button_text: "Send Message"
 
 advanced_settings:
   analytics_code: ""

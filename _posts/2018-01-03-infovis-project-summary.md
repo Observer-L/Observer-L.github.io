@@ -1,10 +1,11 @@
 ---
 title: '数据可视化课程项目总结'
+subtitle: '无论是阅读还是创作，最爱是用视觉语言讲故事'
 date: 2018-01-03 00:00:00
 featured_image: '/images/projects/scribble&programmer.jpg'
 ---
 ## 前言
-无论是阅读还是创作，我尤其喜欢用视觉语言讲故事。 
+无论是阅读还是创作，最爱是用视觉语言讲故事。 
 数据可视化其实在日常生活中有许多应用，例如投票选举、气象地图、体育赛事和数据大屏等。
 
 ![2016美国总统选举](/images/projects/US_election_results.jpg '2016美国总统选举结果可视化')

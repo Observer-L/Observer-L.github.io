@@ -1,33 +1,28 @@
 ---
-title: About Duet
-subtitle: Duet is a beautiful Jekyll portfolio theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+title: About Me
+subtitle: I AM EVERYONE, I AM NO ONE, I AM WHAT I AM.
+description: I AM EVERYONE, I AM NO ONE, I AM WHAT I AM.
+featured_image: /images/others/about02.png
 ---
 
-![](/images/demo/demo-landscape.jpg)
+<img src="/images/others/about02.png" style="float: right;">
 
-## Features
+## Sonnet18
+by william shakespeare
 
-We've packed Duet full of powerful features to help showcase your work:
+* Shall I compare thee to a summer's day?
+* Thou art more lovely and more temperate:
+* Rough winds do shake the darling buds of May,
+* And summer's lease hath all too short a date:
+* Sometime too hot the eye of heaven shines,
+* And often is his gold complexion dimmed,
+* And every fair from fair sometime declines,
+* By chance, or nature's changing course untrimmed:
+* But thy eternal summer shall not fade,
+* Nor lose possession of that fair thou ow'st,
+* Nor shall death brag thou wand'rest in his shade,
+* When in eternal lines to time thou grow'st,
+* So long as men can breathe or eyes can see,
+* So long lives this, and this gives life to thee.
 
-* Beautiful, minimal design
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
-
-## Get Duet
-
-Duet is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $29.
-
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+{% include contact-form.html %}
