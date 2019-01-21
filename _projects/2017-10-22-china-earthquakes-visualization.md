@@ -18,12 +18,12 @@ featured_image: 'images/projects/China__2012~2017_Earthquakes_Visualization.png'
 分析单位：地震及其社会影响  
 数据集：包含了**地区、年份、地震灾害次数、发生地质灾害次数、5.0-5.9级地震、6.0-6.9级地震、7.0级以上地震、人员伤亡、死亡人数、地方财政一般性预算支出、地方财政地震灾后重建支出、人口自然增长率、人口死亡率、人口出生率、地区生产总值、直接经济损失、医疗卫生机构数、地方财政医疗卫生支出、卫生人员数** ，  
 共 **19** 个指标   
-数据来源：[中国国家数据网](http://data.stats.gov.cn/)
+数据来源：[中国国家数据网](https://data.stats.gov.cn/)
 
 第二部分  
 时间周期：2000-2017.10  
 数据集：在第一部分的基础上拉伸时间尺度并增加了**震级（多级别层次）、震源深度**两个指标  
-数据来源：  [中国地震台网数据 - CENC](http://data.stats.gov.cn/)  &nbsp;&nbsp;[美国地质勘探局 - USGS](https://www.usgs.gov/)
+数据来源：  [中国地震台网数据 - CENC](https://data.stats.gov.cn/)  &nbsp;&nbsp;[美国地质勘探局 - USGS](https://www.usgs.gov/)
 
 ## 灵感
 带着一颗好奇的心，借用tableau来帮我探索这些想法：
