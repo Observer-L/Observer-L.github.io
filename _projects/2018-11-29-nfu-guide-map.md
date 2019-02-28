@@ -2,9 +2,8 @@
 title: '南苑导览小程序'
 subtitle: '中山大学南方学院校园导览'
 date: 2018-11-29 00:00:00
-featured_image: 'https://github.com/Observer-L/NFU-Guide-Map/raw/master/showcase/demo.png'
+featured_image: 'images/projects/nfu-map.png'
 ---
-# 未完待续。。。
 
 ## 介绍
 
@@ -22,9 +21,12 @@ featured_image: 'https://github.com/Observer-L/NFU-Guide-Map/raw/master/showcase
 
 
 ## Demo
-![demo](https://github.com/Observer-L/NFU-Guide-Map/raw/master/showcase/demo.png)
+![demo](/images/projects/nfu-map.png)
 ![image](https://github.com/Observer-L/NFU-Guide-Map/raw/master/showcase/showcase.jpg)
 
 ## 开发使用
 
 <img src="https://github.com/Observer-L/NFU-Guide-Map/blob/master/showcase/usage.png?raw=true" width="200px">
+
+
+<img src="/images/projects/QRcode-nfu-map.jpg" width="600px">

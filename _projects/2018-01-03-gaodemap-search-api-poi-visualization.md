@@ -6,7 +6,7 @@ featured_image: 'images/projects/GaodeMapSearchAPI.png'
 ---
 ## 摘要
 城市地区的地图兴趣点（point of interest, POI）主要包括城市内具有标志性作用的实地建筑物，并描述这些实体建筑物的空间和属性信息。  
-此次利用高德地图Web服务的[搜索API](http://lbs.amap.com/api/webservice/guide/api/search/)和数据可视化可视化软件tableau来探索以下关键词的POI：`电玩城` `鬼屋` `女仆咖啡屋` `真人cs` `桌游`
+此次利用高德地图Web服务的[搜索API](https://lbs.amap.com/api/webservice/guide/api/search/)和数据可视化可视化软件tableau来探索以下关键词的POI：`电玩城` `鬼屋` `女仆咖啡屋` `真人cs` `桌游`
 
 ## 数据来源及数据处理 
 + 数据来源
@@ -17,7 +17,7 @@ POI数据来自高德地图搜索服务API。数据可视化使用全国范围�
 
 + 数据处理
 
-原始POI数据分类较多，且每一大类下包括多级小类，类型之间存在重复交叉现象(详见[高德地图POI分类编码](http://lbs.amap.com/api/webservice/download))，如宿舍既存在于商务住宅的住宅区中，同时又存在在科教文化服务的学校中，因此需要对原始数据重分类。
+原始POI数据分类较多，且每一大类下包括多级小类，类型之间存在重复交叉现象(详见[高德地图POI分类编码](https://lbs.amap.com/api/webservice/download))，如宿舍既存在于商务住宅的住宅区中，同时又存在在科教文化服务的学校中，因此需要对原始数据重分类。
 ![关键词类别筛选结果](/images/projects/GaodeMapPOIchart.png)
 <p style="text-align: center;padding-bottom: 26px; font-size: 14px;">关键词类别筛选结果</p>
 

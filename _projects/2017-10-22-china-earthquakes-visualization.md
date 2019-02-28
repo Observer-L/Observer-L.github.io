@@ -41,10 +41,9 @@ featured_image: 'images/projects/China__2012~2017_Earthquakes_Visualization.png'
 
 ------ 
 ## Demo1
-<iframe src="https://public.tableau.com/views/_16779/9?:embed=y&:display_count=yes?:showVizHome=no&:embed=true" frameborder="0" width="1005px" height="4027px" style="display: block; margin: 0 auto;"></iframe>
-
+<iframe src="https://public.tableau.com/views/demo2_26/1_1?:embed=y&:display_count=yes?:showVizHome=no&:embed=true" frameborder="0" width="1022px" height="945px" style="display: block; margin: 0 auto;"></iframe>
 
 ## Demo2
 ![China__2012~2017_Earthquakes_Visualization.gif](/images/projects/China__2012~2017_Earthquakes_Visualization.gif)
 
-<iframe src="https://public.tableau.com/views/demo2_26/1_1?:showVizHome=no&:embed=y&:display_count=yes" frameborder="0" width="1022px" height="945px" style="display: block; margin: 0 auto;"></iframe>
+<iframe src="https://public.tableau.com/shared/R4XKDHPKR?:showVizHome=no&:embed=y&:display_count=yes" frameborder="0"  width="1005px" height="4027px" style="display: block; margin: 0 auto;"></iframe>
