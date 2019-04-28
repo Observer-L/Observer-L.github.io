@@ -10,7 +10,6 @@ featured_image: '/images/projects/google-hiring-data-2018.jpg'
 
 你的思考链应该是这样的：  
 
-<!-- {% mermaid %} -->
 <div class="mermaid">
   graph TD;
     男性-->不注意外在形象;
@@ -21,7 +20,6 @@ featured_image: '/images/projects/google-hiring-data-2018.jpg'
     宅男-->黑眼圈;
     宅男-->老实人;
 </div>
-<!-- {% endmermaid %} -->
 
 
 <div style="text-align:center">典型的程序员刻板印象</div>
