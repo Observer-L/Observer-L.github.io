@@ -60,7 +60,7 @@ featured_image: '/images/projects/google-hiring-data-2018.jpg'
 
 编程无分男女，人人都可以通过编程去创造一个更好的世界。不要抗拒编程，这也是一种偏见。也不要只是编程，而忘记了背后的黑客精神。
 
-
+  <script defer src="/js/mermaid.min.js"></script>
 
 
 ----
