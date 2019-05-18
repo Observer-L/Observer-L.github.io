@@ -1,7 +1,7 @@
 ---
 title: '信息泡的冒泡与捕捉'
 subtitle: ''
-date: 2019-04-28 00:00:00
+date: 2019-05-11 00:00:00
 featured_image: '/images/projects/datahumanism.jpeg'
 ---
 
