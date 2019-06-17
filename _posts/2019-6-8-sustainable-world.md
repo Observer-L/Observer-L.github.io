@@ -1,7 +1,7 @@
 ---
 title: '要活在当下，还是要一个可持续的未来？'
 subtitle: ''
-date: 2019-05-31 00:00:00
+date: 2019-06-08 00:00:00
 featured_image: '/images/projects/martix.jpg'
 ---
 ## 要玩药丸要完
